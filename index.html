@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/Logo Umgo.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+
+        <title>KELOMPOK 3 I UNIVERSITAS MUHAMMADIYAH GORONTALO</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">KELOMPOK 3</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Beranda</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Tentang Kami</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faqs" class="nav__link">Materi</a>
+                        </li>
+                        <li class="nav__item">
+                          <a href="#TEAMS" class="nav__link">Anggota</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Kontak Kami</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                        
+                    </div>
+                </div>
+
+                
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/element paru2.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            ASKEP TB<br> PARU-PARU
+                        </h1>
+                        <p class="home__description">
+                            Disponsori : Kelompok 3 Kelas A Keperawatan
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            Jelajahi Sekarang <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">Ikuti Kami</span>
+
+                        <div class="home__social-links">
+                            <a href="https://www.facebook.com/umgoberkemajuan" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/pmm4_umgo/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@UMGO2008" target="_blank" class="home__social-link">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/ELEMENT PARU2.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            SELAMAT DATANG DI <br> WEBSITE KELOMPOK 3 KELAS A KEPERAWATAN
+                        </h2>
+
+                        <p class="about__description">
+                            Selamat datang di situs kami! Temukan informasi seputar Tuberkulosis Paru, mulai dari definisi, gejala, pengobatan, hingga pencegahan. Bersama-sama, kita bisa melawan TB dan hidup lebih sehat!
+                        </p>
+
+                        <a href="#teams" class="button button--flex">
+                            Anggota Kelompok<i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUESTIONS ====================-->
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                    TUBERKOLUSIS PARU-PARU
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    PENGERTIAN DAN DEFINISI ?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Tuberkulosis (TB) paru-paru adalah penyakit infeksi kronis yang disebabkan oleh bakteri Mycobacterium tuberculosis. Penyakit ini terutama menyerang parenkim paru-paru, tetapi dapat menyebar ke organ tubuh lainnya seperti pleura, kelenjar getah bening, tulang, dan bahkan otak. TB paru-paru merupakan salah satu penyakit menular yang paling mematikan di dunia dan masih menjadi masalah kesehatan global yang signifikan.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    EPIDEMIOLOGI TB PARU-PARU ?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    TB paru-paru lebih banyak ditemukan di negara-negara berkembang, di mana kondisi hidup yang padat, kekurangan gizi, dan akses terbatas ke layanan kesehatan menjadi faktor pendukung penyebaran penyakit ini. Menurut Organisasi Kesehatan Dunia (WHO), sekitar sepertiga populasi dunia terinfeksi bakteri TB, meskipun tidak semuanya berkembang menjadi TB aktif.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    PATOGENESIS TB PARU-PARU ?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Setelah inhalasi, bakteri Mycobacterium tuberculosis masuk ke dalam paru-paru dan menetap di alveoli. Di sini, bakteri mulai berkembang biak dan memicu respons kekebalan tubuh. Bakteri TB memiliki dinding sel yang kaya lemak yang memberikan perlindungan dari sistem kekebalan tubuh dan beberapa antibiotik. Bakteri ini dapat tetap dorman dalam tubuh selama bertahun-tahun sebelum menjadi aktif.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    GEJALA TB PARU-PARU ?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Gejala TB paru-paru biasanya muncul secara perlahan dan dapat bervariasi. Gejala umumnya meliputi batuk kronis yang berlangsung lebih dari tiga minggu dan sering disertai dengan dahak berdarah. Penderita juga dapat mengalami demam dan keringat malam dengan suhu tubuh yang naik turun, terutama di malam hari. Penurunan berat badan yang tidak bisa dijelaskan sering terjadi, disertai rasa lelah yang berlebihan dan berlangsung terus-menerus. Nyeri dada yang muncul saat bernapas atau batuk juga merupakan gejala umum dari TB paru-paru.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    DIAGNOSIS TB PARU-PARU ?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Diagnosis TB paru-paru dilakukan melalui berbagai metode. Tes Tuberkulin (Mantoux Test) melibatkan penyuntikan antigen TB di kulit dan mengukur reaksi setelah 48-72 jam. Tes Sputum dilakukan dengan memeriksa dahak untuk mendeteksi keberadaan bakteri TB. Tes Darah (IGRA) mengukur respons kekebalan tubuh terhadap antigen TB. X-ray dada digunakan untuk melihat adanya kerusakan pada paru-paru yang diakibatkan oleh TB. Tes PCR mengidentifikasi DNA bakteri TB dalam sampel klinis. Kombinasi dari tes-tes ini membantu dalam memastikan diagnosis dan penanganan yang tepat untuk TB paru-paru.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    PENGOBATAN DAN PENCEGAHAN
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Pengobatan TB paru-paru melibatkan penggunaan kombinasi antibiotik selama jangka waktu yang lama, biasanya 6-9 bulan. Obat utama yang digunakan termasuk isoniazid, rifampisin, ethambutol, dan pyrazinamide. Kepatuhan terhadap regimen pengobatan sangat penting untuk mencegah resistensi obat. Pencegahan TB paru-paru melibatkan beberapa strategi, di antaranya adalah vaksinasi dengan vaksin BCG (Bacillus Calmette-Guerin) yang paling umum digunakan untuk mencegah TB, terutama pada anak-anak. Selain itu, kontrol infeksi dilakukan melalui isolasi pasien TB aktif dan penggunaan masker pelindung. Edukasi kepada masyarakat tentang cara penularan dan pencegahan TB juga sangat penting. Meningkatkan kondisi hidup dan akses ke layanan kesehatan untuk mengurangi faktor risiko juga merupakan bagian penting dari strategi pencegahan.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== TEAMS ====================-->
+            <section>
+                <div class="row" id="TEAMS">
+                  <h1>ANGGOTA KELOMPOK 3</h1>
+                </div>
+                <div class="row">
+                  <!-- Column 1-->
+                  <div class="column">
+                    <div class="card">
+                      <div class="img-container">
+                        <img src="assets/img/Clara Usman.jpg" />
+                      </div>
+                      <h3>lara Usman</h3>
+                      <p>KELAS A KEPERAWATAN</p>
+                      <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Column 2-->
+                  <div class="column">
+                    <div class="card">
+                      <div class="img-container">
+                        <img src="assets/img/Adelia Lamusu.jpg" />
+                      </div>
+                      <h3>Adelia Lamusu</h3>
+                      <p>KELAS A KEPERAWATAN</p>
+                      <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Column 3-->
+                  <div class="column">
+                    <div class="card">
+                      <div class="img-container">
+                        <img src="assets/img/Suci Amalia maa.jpg" />
+                      </div>
+                      <h3>Suci Amalia maa</h3>
+                      <p>KELAS A KEPERAWATAN</p>
+                      <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Column 4-->
+                  <div class="column">
+                    <div class="card">
+                      <div class="img-container">
+                        <img src="assets/img/Sumiyati A Salingo.jpg" />
+                      </div>
+                      <h3>Sumiyati A Salingo</h3>
+                      <p>KELAS A KEPERAWATAN</p>
+                      <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Column 5-->
+                  <div class="column">
+                    <div class="card">
+                      <div class="img-container">
+                        <img src="assets/img/Fahril Hidayat Binggo.jpg" />
+                      </div>
+                      <h3>Fahril Hidayat Binggo</h3>
+                      <p>KELAS A KEPERAWATAN</p>
+                      <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Column 6-->
+                  <div class="column">
+                    <div class="card">
+                      <div class="img-container">
+                        <img src="assets/img/Revalinda Hidayatullah Butang.jpg" />
+                      </div>
+                      <h3>Revalinda Hidayatullah Butang</h3>
+                      <p>KELAS A KEPERAWATAN</p>
+                      <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Column 7-->
+                  <div class="column">
+                    <div class="card">
+                      <div class="img-container">
+                        <img src="assets/img/Putri Siskia Husain.jpg" />
+                      </div>
+                      <h3>Putri Siskia Husain</h3>
+                      <p>KELAS A KEPERAWATAN</p>
+                      <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Column 8-->
+                  <div class="column">
+                    <div class="card">
+                      <div class="img-container">
+                        <img src="assets/img/Ini Munira.jpg" />
+                      </div>
+                      <h3>Ini Munira</h3>
+                      <p>KELAS A KEPERAWATAN</p>
+                      <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Column 9-->
+                  <div class="column">
+                    <div class="card">
+                      <div class="img-container">
+                        <img src="assets/img/Cut Putri.jpg" />
+                      </div>
+                      <h3>Cut Putri</h3>
+                      <p>KELAS A KEPERAWATAN</p>
+                      <div class="icons">
+                        <a href="#">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Column 10-->
+                  <div class="column">
+                    <div class="card">
+                      <div class="img-container">
+                        <img src="assets/img/Siti Nurain Botutihe.jpg" />
+                      </div>
+                      <h3>Siti Nurain Botutihe</h3>
+                      <p>KELAS A KEPERAWATAN</p>
+                      <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Column 11-->
+                  <div class="column">
+                    <div class="card">
+                      <div class="img-container">
+                        <img src="assets/img/Nurul Awalia Bolong.jpg" />
+                      </div>
+                      <h3>Nurul Awalia Bolong</h3>
+                      <p>KELAS A KEPERAWATAN</p>
+                      <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-youtube"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Hubungi kami sekarang melalui salah satu cara<br> di bawah ini.
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Hubungi Kami</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +6282291601249
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Email Kami</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    muhammadgustisioni@gmail.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Email Anda</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Judul</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Deskripsi</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Kirim Pesan
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        
+        <!--==================== FOOTER ====================-->
+        <p class="footer__copy">&#169; KELOMPOK 3</p>
+        <script>
+            
+            let scrollContainer = document.querySelector(".gallery");
+            let backBtn = document.getElementById("backBtn");
+            let nextBtn = document.getElementById("nextBtn");
+        
+            scrollContainer.addEventListener("wheel", (evt) => {
+                evt.preventDefault();
+                scrollContainer.scrollLeft += evt.deltaY;
+                scrollContainer.style.scrollBehavior = "auto";
+            });
+        
+            nextBtn.addEventListener("click", ()=>{
+                scrollContainer.style.scrollBehavior = "smooth";
+                scrollContainer.scrollLeft += 900;
+            });
+        
+            backBtn.addEventListener("click", ()=>{
+                scrollContainer.style.scrollBehavior = "smooth";
+                scrollContainer.scrollLeft -= 900;
+            });
+        
+        </script>  
+        <script> 
+        document.addEventListener('DOMContentLoaded', function () {
+  const items = document.querySelectorAll('.questions__item');
+
+  items.forEach(item => {
+    const header = item.querySelector('.questions__header');
+    header.addEventListener('click', function () {
+      const openItem = document.querySelector('.accordion-open');
+
+      toggleItem(item);
+
+      if (openItem && openItem !== item) {
+        toggleItem(openItem);
+      }
+    });
+  });
+
+  const toggleItem = item => {
+    const content = item.querySelector('.questions__content');
+
+    if (item.classList.contains('accordion-open')) {
+      content.style.maxHeight = null;
+      item.classList.remove('accordion-open');
+    } else {
+      content.style.maxHeight = content.scrollHeight + 'px';
+      item.classList.add('accordion-open');
+    }
+  };
+});
+
+        </script>
+        
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
